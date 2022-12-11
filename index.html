@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Library</li>
+          <li class="login"><button class="btn">Login in</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <button class="add-book">&plus; Add book</button>
+      <section class="form-section">
+        <form action="" class="form">
+          <h3 class="form-heading">Add new book</h3>
+          <input type="text" name="title" id="title" placeholder="Title" />
+          <input type="text" name="author" id="author" placeholder="Author" />
+          <input type="text" name="pages" id="pages" placeholder="Pages" />
+          <p class="reading-check">
+            <label for="readOrNot">Have you read it?</label>
+            <input type="checkbox" name="readOrNot" id="readOrNot" />
+          </p>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2022 Rajasekhar</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
